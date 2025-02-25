@@ -71,8 +71,8 @@ function buildCharts(sample_id) {
       x: xArray,
       y: yArray,
       mode: 'markers',
-      //hover: otu_labels,
-      //text: otu_labels,
+      hover: otu_labels,
+      text: otu_labels,
       marker: {
         color: otu_ids,
         opacity: 0.75,
